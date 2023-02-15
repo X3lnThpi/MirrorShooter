@@ -1,5 +1,4 @@
 # MirrorShooter
-#Implemented Command pattern to design the character movement mechanics, with separate command classes for walking, running, and jumping.
-#Implemented Singleton pattern to design the shooting mechanics, with a single instance of the shooting class shared by all players.
-#Implemented State pattern to design the rocket propulsion mechanics, with separate state classes for the different flight modes i.e ascending, descending, boosting.
-#Implemented Strategy pattern to design the power-up mechanics, with separate strategy classes for each type of power-up fuel, ammo, health.
+The game includes character movement mechanics using the Command pattern with separate command classes for walking, running, and jumping. The shooting mechanics have been designed using the Singleton pattern, with a single instance of the shooting class shared by all players. The rocket propulsion mechanics have been designed using the State pattern, with separate state classes for the different flight modes such as ascending, descending, and boosting. Additionally, the power-up mechanics have been designed using the Strategy pattern, with separate strategy classes for each type of power-up such as fuel, ammo, and health.
+
+Overall, these design patterns provide a structured approach to designing the different mechanics of your game, allowing for more flexibility, extensibility, and maintainability. By implementing these patterns, you can easily modify and extend your game with new features and mechanics while keeping the existing code organized and maintainable.
